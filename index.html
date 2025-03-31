@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizCod</title>
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- css  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="md:flex  items-center justify-between w-full md:h-32 sm:flex-row">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVP9sTRanjUDOS_UaLntcWTEyHj9W3NztmXQ&s"
+                    alt="no image" class="sm:w-24 md:w-42 ">
+            </div>
+            <div>
+                <ul class="md:flex items-center justify-around  sm:flex-col md:flex-row lg:p-3 sm:text-sm ">
+                    <li class="lg:ml-5 sm:text-sm md:text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">HOME
+                        <!-- <i class="fa-solid fa-plus hidden sm:inline  lg:p-3"></i> -->
+                    </li>
+                    <li class="lg:ml-3 sm:text-sm md:text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">ABOUT
+                        <!-- <i
+                            class="fa-solid fa-plus sm:hidden visible  lg:p-3"></i> -->
+                    </li>
+                    <li class="lg:ml-3 sm:text-sm md:text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">PAGES
+                        <!-- <i
+                            class="fa-solid fa-plus sm:hidden visible  lg:p-3"></i> -->
+                    </li>
+                    <li class="lg:ml-3 sm:text-sm md:text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">PORTFOLIO
+                        <!-- <i
+                            class="fa-solid fa-plus sm:hidden visible   lg:p-3"></i>  -->
+                    </li>
+                    <li class="lg:ml-3 sm:text-sm md:text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">BLOG
+                        <!-- <i
+                            class="fa-solid fa-plus sm:hidden visible  lg:p-3"></i> -->
+                    </li>
+                    <li class="lg:ml-3 sm:text-sm md:text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">CONTACT
+                        <!-- <i
+                            class="fa-solid fa-plus sm:hidden visible lg:p-3"></i> -->
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex  items-center  md:justify-center  lg:mx-auto ">
+                <div
+                    class="sm:text-sm md:text-lg lg:text-xl w-48 lg:w-48 md:w-32 border-solid lg:p-3 border-black text-center border-2 shadow-md animate md:mr-0 mr-5">
+                    GET
+                    FREE
+                    QUOTE</div>
+                <i class="lg:ml-5 fa-solid fa-magnifying-glass fa-2x hidden md:inline"></i>
+
+            </div>
+        </nav>
+    </header>
+    <!-- <section class="banner-section relative bg-[url('https://bizfix.netlify.app/assets/img/shape/shape-banner-bg.png')]"> -->
+    <!--  <div class="@container  w-full md:min-h-screen  bg-img"> -->
+    <!-- <div class="grid grid-cols-6 ">
+                <div class="col-start-1 col-end-3">
+                    <div class="banner-content relative z-1">
+                        <div class="shape1 bg-[url('https://bizfix.netlify.app/assets/img/shape/shape-1.png')]"></div>
+                    </div>
+                </div>
+                <div class="col-start-4 col-end-12 bg-red-600"></div>
+            </div> -->
+    <!-- </div>
+    </section> -->
+    <!-- <section id="main">
+        <div class="">
+            <div
+            class="bg-[url('https://bizfix.netlify.app/assets/img/shape/shape-banner-bg.png')] relative w-full md:min-h-screen bg-cover bg-center z-[1]">
+            <div class="absolute bg-black w-2/5 h-full  top-0 left-0 z-[2] text-white text-center">
+<img src="	https://bizfix.netlify.app/assets/img/shape/shape-1.png" alt="" class="animate-bounce mt-20 ml-10">
+<h1 class="mt-50  text-3xl font-extrabold italic tracking-wider">INNOVATIVE SOLUTIONS</h1>
+<h1 class="mt-10 py-10 text-3xl font-extrabold italic tracking-wider">LEADING THE WAY IN <br> <span class="text-red-500">BIZCODE </span> EXCELLENCE</h1>
+            </div>
+            <div class="absolute bg-red-500 inset-0">
+                <div class="relative bg-[url('https://bizfix.netlify.app/assets/img/shape/shape-logo.png')]">
+                    <img src="	https://bizfix.netlify.app/assets/img/banner/women.png " alt="" class="animate-bounce overflow-hidden z-3 px-50 ml-80 absolute" height="200px" width="100px" >
+                </div>
+               
+                <div class="" >
+                   
+                    <img src="	https://bizfix.netlify.app/assets/img/banner/women.png" alt="" > -->
+    <!-- </div>
+            </div> Used inset-0 for the second absolute div to fill the parent -->
+
+
+    <!-- </div>
+        </div> -->
+
+    <!-- </section> -->
+    <section id="main">
+        <div
+            class="md:mt-0 mt-10 relative w-full min-h-80 md:min-h-screen bg-cover bg-center z-[1] bg-[url('https://bizfix.netlify.app/assets/img/shape/shape-banner-bg.png')]">
+
+
+            <!--  Full width on small screens, 2/5 width on medium+ screens. -->
+            <div
+                class="absolute bg-black w-full md:w-2/5 h-full top-0 left-0 z-2 text-white text-center flex flex-col justify-center p-5">
+                <img src="https://bizfix.netlify.app/assets/img/shape/shape-1.png" alt=""
+                    class="animate-bounce mx-auto">
+                <h1 class="mt-5 text-2xl md:text-3xl font-extrabold italic tracking-wider">INNOVATIVE SOLUTIONS</h1>
+                <h1 class="mt-5 py-5 text-2xl md:text-3xl font-extrabold italic tracking-wider">
+                    LEADING THE WAY IN <br>
+                    <span class="text-red-500">BIZCODE</span> EXCELLENCE
+                </h1>
+                <div
+                    class="mt-3 sm:text-sm md:text-lg lg:text-xl w-32 md:w-48 md:ml-40 ml-30  lg:p-3 text-center shadow-md  bg-red-500 text-white">
+                    GET FREE QUOTE</div>
+            </div>
+
+            <!-- Right Red Section -->
+            <div class="absolute bg-red-500 inset-0 flex-cols justify-center items-center">
+                <img src="	https://bizfix.netlify.app/assets/img/banner/women.png" alt="" class="ml-80 px-50  ">
+                <p class="text-white ml-80 px-75 mt-20 text-xl italic tracking-wider">Operations keeps the lights on,
+                    strategy provides a light at the end of the tunnel, but project management is the train engine that
+                    moves the organization forward</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="@container w-full md:grid grid-cols-4 gap-4 p-16 text-justify">
+            <div class="card-animate w-full  mt-5 p-5 text-justify">
+                <img src="https://static.thenounproject.com/png/736343-200.png" alt="" width="100px" height="50px">
+                <h3 class="font-semibold text-lg mt-3 italic">Website Development</h3>
+                <p class="mt-3">Services related to financial record-keeping, bookkeeping, tax preparation, and
+                    financial reporting</p>
+            </div>
+            <div class="card-animate w-full  mt-5 p-5 text-justify">
+                <img src="https://png.pngtree.com/png-vector/20230428/ourmid/pngtree-sales-marketing-line-icon-vector-png-image_6738523.png"
+                    width="100px" height="50px">
+                <h4 class="font-semibold text-lg mt-3 italic">Digital Marketing</h4>
+                <p class="mt-3">Transforming ideas into user-friendly and visually appealing websitesAccounting</p>
+            </div>
+
+            <div class="card-animate w-full  mt-5 p-5 text-justify">
+                <img src="https://cdn-icons-png.flaticon.com/512/6601/6601840.png" alt="" width="100px" height="50px">
+                <h3 class="font-semibold text-lg mt-5 italic">Social Media Management</h3>
+                <p class="mt-3"> Services related to financial record-keeping, bookkeeping, tax preparation, and
+                    financial reporting</p>
+            </div>
+            <div class="card-animate w-full  mt-5 p-5 text-justify">
+                <img src="https://static.thenounproject.com/png/1855997-200.png" alt="" width="100px" height="50px">
+                <h3 class="font-semibold text-lg mt-3 italic">Business Consulting</h3>
+                <p class="mt-3 ">Transforming ideas into user-friendly and visually appealing websitesAccounting</p>
+            </div>
+        </div>
+    </section>
+    <!-- our work -->
+    <section id="our_work">
+        <div class="@container p-16 text-justify">
+            <h2 class="text-red-600 italic text-2xl">OUR WORK SHOWCASE</h2>
+            <div class="relative md:w-96 w-full ">
+                <h1 class="md:text-3xl text-xl italic font-bold  py-5">Explore our best recently
+                    completed project</h1>
+                <img src="https://bizfix.netlify.app/assets/img/shape/title-shape.png" alt=""
+                    class="absolute top-0 right-0 animate-bounce duration-300 ease-in">
+            </div>
+
+
+        </div>
+
+    </section>
+    <section id="showCase ">
+        <div class="relative h-80 flex-col place-items-center  justify-items-center">
+            <div
+                class="absolute bg-[url('https://bizfix.netlify.app/assets/img/shape/showcase-bg.png')] bg-center w-full h-48  bg-center animate-move">
+            </div>
+            <div class=" absolute  md:ml-10 md:mr-10 ml-5 mr-5">
+                <div
+                    class="showcase_animate mb-7 lg:ml-7 md:ml-8 md:tracking-wide tracking-normal md:h-32 h-48 flex flex-wrap md:flex-nowrap content-between items-center first_div border-y-1 border-gray-400 text-justify">
+
+                    <h1 class="mr-20 md:text-4xl text-lg  italic font-extrabold">01 /</h1>
+                    <h1 class="mr-20 md:text-2xl text-lg font-semibold">Marketing We design</h1>
+                    <div class="flex items-center gap-4 w-full md:w-auto">
+                        <p class="md:mr-20 sm:text-lg text-xl">Transforming ideas into user-friendly and visually
+                            appealing websites</p>
+                        <div
+                            class="img_wrapper md:m-10 m-0 circle_div md:mr-20 rounded-full animate flex flex-wrap md:flex-nowrap items-center justify-center relative ">
+                            <i class="fa-solid fa-arrow-right fa-2x " style="color:white"></i>
+                            <div class="content_img absolute rotate-45"><img
+                                    src="https://bizfix.netlify.app/assets/img/resources/showcase-1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="showcase_animate  mb-7 lg:ml-7 md:ml-8 md:tracking-wide tracking-normal md:h-32 h-48 flex flex-wrap md:flex-nowrap content-between items-center first_div border-y-1 border-gray-400 border-gray-400 text-justify">
+
+                    <h1 class="mr-20 md:text-4xl text-lg  italic font-extrabold">02 /</h1>
+                    <h1 class="mr-20 md:text-2xl text-lg font-semibold">Business Consulting</h1>
+                    <div class="flex items-center gap-4 w-full md:w-auto">
+                        <p class="md:mr-20 sm:text-lg text-xl">Transforming ideas into user-friendly and visually
+                            appealing websites</p>
+                        <div
+                            class="img_wrapper md:m-10 m-0 circle_div md:mr-20 rounded-full animate flex flex-wrap md:flex-nowrap items-center justify-center relative ">
+                            <i class="fa-solid fa-arrow-right fa-2x " style="color:white"></i>
+                            <div class="content_img absolute rotate-45"><img
+                                    src="https://bizfix.netlify.app/assets/img/resources/showcase-1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="showcase_animate lg:ml-7 md:ml-8 md:tracking-wide tracking-normal md:h-32 h-48 flex flex-wrap md:flex-nowrap border-gray-400 content-between items-center first_div border-y-1 text-justify">
+
+                    <h1 class="mr-20 md:text-4xl text-lg  italic font-extrabold text-wrap">03 /</h1>
+                    <h1 class="mr-20 md:text-2xl text-lg font-semibold text-wrap">Social Media Management</h1>
+                    <div class="flex items-center gap-4 w-full md:w-auto">
+                        <p class="md:mr-20 sm:text-lg text-xl">Transforming ideas into user-friendly and visually
+                            appealing websites</p>
+                        <div
+                            class="img_wrapper mb-10 md:m-10 m-0 circle_div md:mr-20 rounded-full animate flex flex-wrap md:flex-nowrap items-center justify-center relative ">
+                            <i class="fa-solid fa-arrow-right fa-2x " style="color:white"></i>
+                            <div class="content_img absolute rotate-45"><img
+                                    src="https://bizfix.netlify.app/assets/img/resources/showcase-1.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- communication -->
+    <section id="communication">
+        <div
+            class="min-h-80 max-w-full mt-50 pt-40 md:pt-0  md:mt-33 flex-wrap md:flex-nowrap  md:grid grid-cols-2 gap-5">
+            <div claSS="tracking-wide md:ml-20 ml-5">
+                <h1 class="md:mt-10 text-red-500 md:text-xl text-xl italic ">
+                    COMMUNICATION IN YOUR BUSINESS</h1>
+                <h1 class="md:text-3xl mt-10 text-xl font-extrabold italic">Connecting businesses, people &
+                    ideas for the future.</h1>
+                <p class="mt-10  text-justify italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                    officia culpa facilis cumque, quae tempore vero perferendis voluptatem veniam delectus!</p>
+
+                <h1 class="mt-10  italic text-2xl font-lighter">Human resources</h1>
+
+
+                <div class="skill_container md:mt-4 ">
+
+                    <div id="smallbar"> </div>
+                    <p>90%</p>
+
+                </div>
+                <h1 class="mt-10  italic text-2xl font-lighter">Investment Consulting</h1>
+                <div class="skill_container  mt-4">
+                    <div id="newbar"></div>
+
+
+                    <p>80%</p>
+                </div>
+
+
+                <h1 class="mt-10  italic text-2xl font-lighter">Human resources</h1>
+                <div class="skill_container mt-4 justify-between">
+                    <div id="investementbar"></div>
+
+                    <p>95%</p>
+                </div>
+
+
+            </div>
+            <div><img src="	https://bizfix.netlify.app/assets/img/resources/conncet-1.jpg" alt=""></div>
+
+        </div>
+    </section>
+
+    <section id="our_analysis">
+        <div class="min-h-80 mt-20 max-w-9/10 md:mt-33 flex-wrap md:flex-nowrap  md:grid grid-cols-2 gap-3">
+            <div class="w-full"><img src="	https://bizfix.netlify.app/assets/img/resources/conncet-2.jpg" alt=""></div>
+            <div class="tracking-wide md:ml-20 ml-5 text-justify">
+                <h1 class=" text-red-500 md:text-xl text-xl italic ">
+
+                    Our analysis</h1>
+                <h1 class="w-full md:text-3xl mt-5 text-xl font-extrabold italic">Crafting Lasting Brand Identities:
+                    Partner with Us for a Fresh Image</h1>
+                <p class="mt-10  text-justify italic">Transforming ideas into user-friendly and visually appealing
+                    websites Accounting and Bookkeeping: Services related to financial record-keeping, bookkeeping, tax
+                    preparation, and financial reporting..
+                    <br>
+                    <br>
+
+                    Devising and implementing online to the marketing strategies. Payroll Services: Managing employee
+                    payroll, including salary calculations, tax deductions, and direct deposits.
+                </p>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="min-h-80  max-w-full flex-wrap md:flex-nowrap ">
+            <div class="mt-5 ml-10 ">
+                <h1 class=" text-red-500 md:text-3xl text-xl italic "> BEST DEALS
+                </h1>
+                <h1 class="w-full md:text-3xl mt-5 text-xl font-extrabold italic px-5" style="word-spacing: 5px;">
+
+                    Special offer worth investing in,<br>
+                    choose your pack today!</h1>
+            </div>
+            <div class=" flex-cols md:grid grid-cols-3 flex-col h-full md:px-20 px-0 gap-5 md:ml-10 ml-0 mt-20">
+                <div class="bg-gray-100 w-full text-center">
+                    <h1 class="text-red-500 text-2xl mt-10">BASIC</h1>
+                    <h1 class="mt-10 text-2xl font-bold">$120</h1>
+                    <h3 class="mt-5 text-center">Devising and implementing</h3>
+                    <h3 class="mt-5 text-center">online to the marketing</h3>
+                    <h3 class="mt-5 text-center">Managing employee payroll </h3>
+                    <h3 class="mt-5 text-center">
+                        Accounting and Bookkeeping
+                    </h3>
+                    <h3 class="mt-5 text-center">Tax deductions</h3>
+                    </h3>
+                    <div class="md:flex sm:inline-block items-center justify-center lg:mx-auto mt-10">
+                        <div
+                            class="sm:text-sm md:text-lg lg:text-xl sm:w-16 md:w-40 border-solid lg:p-3  border-black text-center border-2 shadow-md animate mb-10">
+                            VIEW MORE</div>
+                    </div>
+                </div>
+                <div class="bg-gray-100 w-full text-center ">
+                    <h1 class="text-red-500 text-2xl mt-10">STANDARD</h1>
+                    <h1 class="mt-10 text-2xl font-bold">$220</h1>
+                    <h3 class="mt-5 text-center">Devising and implementing</h3>
+                    <h3 class="mt-5 text-center">online to the marketing</h3>
+                    <h3 class="mt-5 text-center">Managing employee payroll </h3>
+                    <h3 class="mt-5 text-center">
+                        Accounting and Bookkeeping
+                    </h3>
+                    <h3 class="mt-5 text-center">Tax deductions</h3>
+                    </h3>
+                    <div class="md:flex sm:inline-block items-center justify-center lg:mx-auto mt-10">
+                        <div
+                            class="sm:text-sm md:text-lg lg:text-xl sm:w-16 md:w-40 border-solid lg:p-3  border-black text-center border-2 shadow-md animate">
+                            VIEW MORE</div>
+                    </div>
+
+                </div>
+                <div class="bg-gray-100 w-full text-center items-justify">
+                    <h1 class="text-red-500 text-2xl mt-10 ">PRO</h1>
+                    <h1 class="mt-10 text-3xl font-bold">$350</h1>
+                    <h3 class="mt-5 ">Devising and implementing</h3>
+                    <h3 class="mt-5">online to the marketing</h3>
+                    <h3 class="mt-5 ">Managing employee payroll </h3>
+                    <h3 class="mt-5">
+                        Accounting and Bookkeeping
+                    </h3>
+                    <h3 class="mt-5 text-center">Tax deductions</h3>
+                    </h3>
+                    <div class="md:flex sm:inline-block items-center justify-center lg:mx-auto mt-10">
+                        <div
+                            class="sm:text-sm md:text-lg lg:text-xl sm:w-16 md:w-40 border-solid lg:p-3  border-black text-center border-2 shadow-md animate">
+                            VIEW MORE</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class=" mt-10 overflow-hidden">
+        <div class=" w-full h-16 payroll_animate flex items-center relative">
+            <ul class="flex space-x-12 items-center justify-between text-4xl font-bold min-w-full ">
+                <li>#PAYROLL SERVICE</li>
+                <li>#IT SUPPORT</li>
+                <li>#MARKETING</li>
+                <li>#BUSINESS</li>
+            </ul>
+
+        </div>
+    </section>
+    <section class="md:tracking-wider tracking-normal">
+        <div class="w-full h-80 flex flex-col items-center justify-center">
+            <img src="	https://bizfix.netlify.app/assets/img/shape/quote.png" alt="">
+            <p class="md:text-center md:text-2xl text-lg md:font-bold  "> Transforming ideas into user-friendly and
+                visually appealing <br>
+                <span class="">Services related to financial record-keeping, bookkeeping, tax preparation, and financial
+                    reporting..
+                    </h1></span>
+        </div>
+
+
+
+
+    </section>
+    <section id="team">
+        <div class="min-h-80  max-w-full flex-wrap md:flex-nowrap ">
+            <div class="mt-5 ml-10 md:tracking-wider">
+                <h1 class=" text-red-500 md:text-3xl text-xl italic  md:mt-0 mt-10"> TEAM MEMBERS
+                </h1>
+                <h1 class="w-full md:text-3xl mt-5 text-xl font-extrabold italic px-5" style="word-spacing: 5px;">
+
+                    The amazing team behind<br>
+                    our company
+                </h1>
+            </div>
+            <div class="md:px-30 py-10 md:grid grid-cols-3 gap-3 flex-cols ">
+                <div
+                    class="relative img-wrap bg-[url('https://bizfix.netlify.app/assets/img/shape/team-2.png')] bg-center bg-center w-full">
+                    <img src="https://bizfix.netlify.app/assets/img/team/team-3.png" alt="" class="relative">
+                    <div
+                        class="absolute  inset-x-0 bottom-0 w-full shadow-0 bg-gray-100 text-black italic py-4 flex flex-col items-center justify-center">
+                        <h1 class="text-lg font-bold ">Shepherd</h1>
+                        <h2 class="text-lg font-medium">Business Consultant</h2>
+
+                        <div class="flex gap-4 mt-2">
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+
+                            <a href="https://web.whatsapp.com/" target="_blank"><i
+                                    class="fa-brands fa-whatsapp fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="overflow-hidden bg-[url('https://bizfix.netlify.app/assets/img/shape/team-2.png')] bg-center w-full relative">
+                    <img src="https://bizfix.netlify.app/assets/img/team/team-1.png" alt="">
+
+                    <div
+                        class="absolute  inset-x-0 bottom-0 w-full shadow-0 bg-gray-100 text-black italic py-4 flex flex-col items-center justify-center">
+                        <h1 class="text-lg font-bold ">Shepherd</h1>
+                        <h2 class="text-lg font-medium">Business Consultant</h2>
+
+                        <div class="flex gap-4 mt-2">
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+
+                            <a href="https://web.whatsapp.com/" target="_blank"><i
+                                    class="fa-brands fa-whatsapp fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="relative bg-[url('https://bizfix.netlify.app/assets/img/shape/team-2.png')] bg-center bg-center w-full">
+                    <img src="https://bizfix.netlify.app/assets/img/team/team-2.png" alt="">
+                    <div
+                        class="absolute  inset-x-0 bottom-0 w-full shadow-0 bg-gray-100 text-black italic py-4 flex flex-col items-center justify-center">
+                        <h1 class="text-lg font-bold ">Shepherd</h1>
+                        <h2 class="text-lg font-medium">Business Consultant</h2>
+
+                        <div class="flex gap-4 mt-2">
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+
+                            <a href="https://web.whatsapp.com/" target="_blank"><i
+                                    class="fa-brands fa-whatsapp fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+    <section id="location">
+        <div class="md:grid grid-cols-2 w-full ">
+            <div class="w-full">
+                <img src="https://bizfix.netlify.app/assets/img/resources/woman-1.jpg" alt="">
+            </div>
+            <div class="w-full md:w-auto">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.05045015685!2d-74.30914641735774!3d40.697193377231365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f88254f2c3%3A0xe0e14597c5400022!2sThe%20Manhattan%20at%20Times%20Square%20Hotel!5e0!3m2!1sen!2sae!4v1743436374393!5m2!1sen!2sae"
+                    width="800px" height="340" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="h-42 bg-red-500 text-white p-10 w-full md:w-auto">
+                    <h1 class="text-2xl">Our Contact</h1>
+                    <div class="flex items-center justify-between mt-5">
+                        <div>
+                            <p>Louis Vuitton <br>
+                                2464 Royal Ln. Mesa, <br> New Jersey
+                                45463</p>
+                        </div>
+                        <div>
+                            <p>
+                                General Electric <br>
+                                3517 W. Gray St. Utica, <br> Pennsylvania
+                                57867
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="blogs">
+        <div class=" w-full">
+            <div class="mt-5 ml-10 md:tracking-wider">
+                <h1 class=" text-red-600 md:text-3xl text-xl italic "> BLOGS
+                </h1>
+                <h1 class="w-full md:text-3xl mt-5 text-xl font-extrabold italic px-5" style="word-spacing: 5px;">
+
+                    Everything about the
+                    <br>
+                    business
+                </h1>
+            </div>
+            <div class="md:grid grid-cols-4 italic flex-cols ">
+                <div class="px-15 mt-2">
+                    <img src="https://bizfix.netlify.app/assets/img/blogs/blog-1.jpg" alt="">
+
+                </div>
+                <div class="flex-cols italic md:mt-0 mt-10 md:ml-0 ml-3 ">
+                    <div class="flex items-center ">
+
+                        <i class="fa-solid fa-user" style="color: #ED3B3B;"></i>
+                        <h3 class="mr-3 ml-4">admin</h3>
+
+
+                        <i class="fa-solid fa-comment" style="color: #ED3B3B;"></i>
+                        <h3 class="mr-3 ml-4">comments</h3>
+
+
+                    </div>
+
+                    <h1 class=" showcase_animate mt-6 md:text-2xl font-extrabold">Unlocking the Right Fit: 5 Interview
+                        Tips for Spotting the
+                        Ideal Candidate</h1>
+                    <p class="mt-3 md:text-xl  ">Transforming ideas into user-friendly and visually appealing websites
+                    </p>
+                    <div
+                        class="mt-3 sm:text-sm md:text-lg lg:text-xl w-32 md:w-48  lg:p-3 text-center shadow-md animate bg-red-500">
+                        READ MORE</div>
+                </div>
+                <div class="px-15 md:mt-0 mt-10">
+                    <img src="https://bizfix.netlify.app/assets/img/blogs/blog-2.jpg" alt="">
+                </div>
+                <div class="flex-cols italic md:mt-0 mt-10 md:ml-0 ml-3">
+                    <div class="flex items-center">
+
+                        <i class="fa-solid fa-user" style="color: #ED3B3B;"></i>
+                        <h3 class="mr-3 ml-4">admin</h3>
+
+
+                        <i class="fa-solid fa-comment" style="color: #ED3B3B;"></i>
+                        <h3 class="mr-3 ml-4">comments</h3>
+
+
+                    </div>
+
+                    <h1 class="showcase_animate mt-6 md:text-2xl font-extrabold">Unlocking the Right Fit: 5 Interview
+                        Tips
+                        for Spotting the Ideal Candidate</h1>
+                    <p class="mt-3 md:text-xl ">Transforming ideas into user-friendly and visually appealing websites
+                    </p>
+                    <div
+                        class="mt-3 sm:text-sm md:text-lg lg:text-xl w-32 md:w-48  lg:p-3 text-center  shadow-md animate bg-red-500">
+                        READ MORE</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-full flex ml-10  mt-20 mb-10">
+            <h1 class="md:text-4xl md:font-extrabold">Subscribe and receive latest insights & news.</h1>
+            <form action="">
+
+                <input type="email" name="" id="" placeholder="ENTER YOUR EMAIL *"
+                    class="border-b-2 tracking-wider ml-10 px-5 text-xl">
+            </form>
+
+        </div>
+
+    </section>
+    <footer>
+
+        <div class="grid md:grid-cols-4 grid-cols-2 text-white bg-black md:px-10 px-5 py-20">
+            <div class="flex-cols items-center md:ml-5">
+                <h1 class="mt-10 md:ml-10 ml-0 mb-10 text-xl italic ">NEWSLETTER</h1>
+                <form action="">
+
+                    <input type="email" name="" id="" placeholder="Your Email"
+                        class="border-b-1 tracking-wider border-white  md:ml-10 ml-0 md:text-xl">
+                </form>
+                <div>
+                    <img src="./images/shape-logo.png" width="150px" alt="no image" class="mt-8 md:ml-8">
+                </div>
+            </div>
+            <div class="flex-cols items-center ml-5">
+                <h1 class="mt-10 ml-10 mb-10 text-xl font-bold italic ">Explore</h1>
+                <h3 class="mt-10 ml-10 mb-10   ">Portfolio</h3>
+                <h3 class="mt-10 ml-10 mb-10   ">About</h3>
+                <h3 class="mt-10 ml-10 mb-10   ">Contact</h3>
+                <h3 class="mt-10 ml-10 mb-10   ">Blog</h3>
+            </div>
+            <div class="flex-cols tems-center md:ml-5">
+                <h1 class="md:mt-10 md:ml-10 md:mb-10 text-xl font-bold italic ">Connect</h1>
+                <h3 class="mt-10 md:ml-10 md:mb-10 ">Instagram</h3>
+                <h3 class="mt-10 md:ml-10 md:mb-10 ">Twitter</h3>
+                <h3 class="mt-10 md:ml-10 md:mb-10 ">Youtube</h3>
+                <h3 class="mt-10 md:ml-10 md:mb-10 ">Facebook</h3>
+            </div>
+            <div class="flex-cols items-center ml-5">
+                <h3 class="mt-10 md:ml-10 mb-10  text-red-500  ">Send Your Queries</h3>
+                <h1 class="mt-10 md:ml-10 mb-10 text-xl italic ">info@bizcode.com</h1>
+                <h3 class="mt-10 md:ml-10 mb-5   ">Contact</h3>
+                <h3 class=" md:ml-10  ">Divya</h3>
+                <h3 class="md:ml-10 mb-10  ">0987654321</h3>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
+<!-- sm:mt-50 mt-20 sm:pt-40 pt-0 -->

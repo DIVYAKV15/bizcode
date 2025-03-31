@@ -1,0 +1,206 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Manrope", sans-serif;
+
+    overflow-x: hidden;
+    width: 100%;
+
+  
+}
+html{
+  overflow-x: hidden;
+  width: 100%;
+}
+p{
+  word-spacing:5px;
+}
+
+.animate {
+  box-shadow: inset 0 0 0 0 black;
+  /* initially we are seting as 0  */
+  transition: ease-in 1s;
+}
+
+.animate:hover {
+  box-shadow: inset 220px 0 0 0 black;
+  /* slide transition then here we are setting 300px depends upon how full you want the transition */
+  color: white;
+}
+
+/* banner */
+/* .banner-section::before{
+    position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #151515;
+  /* width: 137px;
+  height: 100%; */
+/* } */
+
+/* 
+.banner-section {
+    /* padding: 260px 0 330px 0; */
+/* background-color: #be0000;
+    background-repeat: no-repeat; */
+/* background-size: 67% 100%; */
+/* background-position: center right; */
+/* background-blend-mode: overlay; */
+/* }
+  */
+
+/* card animate */
+
+.card-animate {
+  box-shadow: inset 0 0 0 0 red;
+  transition: ease-in-out 1s;
+}
+
+.card-animate:hover {
+  box-shadow: inset 335px 0 0 0 #ED3B3B;
+  color: white;
+
+}
+
+/* showcase */
+.animate-move {
+  height: 450px;
+  transform: translateX(-100px);
+  animation: move 15s linear infinite;
+
+}
+
+@keyframes move {
+  0% {
+    left: 10%;
+  }
+
+  20% {
+    left: 10%;
+  }
+
+  50% {
+    left: 0%;
+  }
+
+  75% {
+    left: 10%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/*--- */
+.first_div {
+  margin-top: 0px;
+  /* overflow: hidden; */
+}
+
+.second_div {
+  margin-top: 30px;
+}
+
+.circle_div {
+  background-color: #ED3B3B;
+  width: 80px;
+  height: 80px;
+}
+
+.showcase_animate:hover h1 {
+  color: #ED3B3B
+}
+
+.content_img {
+  opacity: 0;
+  height: 200px;
+  width: 200px;
+  transition: 200ms ease-in;
+
+}
+
+.img_wrapper:hover>.content_img {
+  opacity: 1;
+  transform: translateX(-120px)
+}
+
+/* bar */
+
+.skill_container{
+  width: 350px;
+  height: 10px;
+  background-color: gray;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .bar{
+ 
+  width: 80%;
+  background-color: #ED3B3B;
+} */
+.skill_container p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -3%;
+  margin-right: -20%;
+
+
+}
+
+@media (max-width:768px) {
+
+  /* < means max-width */
+  .skill_container p {
+
+    display: inline-block;
+  
+      /* the content will not load */
+  }
+}
+
+
+#smallbar {
+  width: 90%;
+
+  background-color: #ED3B3B;
+
+}
+#newbar {
+  width: 80%;
+
+  background-color: #ED3B3B;
+
+}
+#investementbar{
+  width: 95%;
+
+  background-color: #ED3B3B;
+}
+
+.payroll_animate{
+  position: realtive;
+white-space: nowrap;
+  animation:payroll 25s linear infinite;
+
+}
+@keyframes payroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+  /* 0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  } */
+
+}
