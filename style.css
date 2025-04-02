@@ -21,7 +21,9 @@ p{
   /* initially we are seting as 0  */
   transition: ease-in 1s;
 }
-
+#navbar li:hover{
+  color: #ED3B3B;
+}
 .animates:hover {
   box-shadow: inset 220px 0 0 0 black;
   /* slide transition then here we are setting 300px depends upon how full you want the transition */

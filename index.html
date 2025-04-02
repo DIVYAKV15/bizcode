@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BizCod</title>
     <!-- tailwind -->
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -24,7 +25,7 @@
 
 <body>
 
-    <header>
+    <header id="navbar">
         <nav class="md:flex  items-center justify-between w-full md:h-32 md:ml-0 ml-10">
             <div class="md:ml-0 ml-20">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVP9sTRanjUDOS_UaLntcWTEyHj9W3NztmXQ&s"
@@ -32,26 +33,27 @@
             </div>
             <div>
                 <ul class="md:flex items-center justify-around  md:flex-row lg:p-3  ">
-                    <li class="lg:ml-5 text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">HOME
+                    <li class="lg:ml-5 text-lg lg:text-xl lg:px-4 md:px-2 md:hover:text-red-600 hover:text-yellow-600">
+                        HOME
                         <!-- <i class="fa-solid fa-plus hidden sm:inline  lg:p-3"></i> -->
                     </li>
-                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">ABOUT
+                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 md:hover:text-red-600 hover:text-yellow-600">ABOUT
                         <!-- <i
                             class="fa-solid fa-plus sm:hidden visible  lg:p-3"></i> -->
                     </li>
-                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">PAGES
+                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 md:hover:text-red-600 hover:text-yellow-600">PAGES
                         <!-- <i
                             class="fa-solid fa-plus sm:hidden visible  lg:p-3"></i> -->
                     </li>
-                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">PORTFOLIO
+                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 md:hover:text-red-600 hover:text-yellow-600">PORTFOLIO
                         <!-- <i
                             class="fa-solid fa-plus sm:hidden visible   lg:p-3"></i>  -->
                     </li>
-                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">BLOG
+                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 md:hover:text-red-600 hover:text-yellow-600">BLOG
                         <!-- <i
                             class="fa-solid fa-plus sm:hidden visible  lg:p-3"></i> -->
                     </li>
-                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 hover:text-red-600">CONTACT
+                    <li class="lg:ml-3 text-lg lg:text-xl lg:px-4 md:px-2 md:hover:text-red-600 hover:text-yellow-600">CONTACT
                         <!-- <i
                             class="fa-solid fa-plus sm:hidden visible lg:p-3"></i> -->
                     </li>
@@ -69,7 +71,7 @@
             </div>
         </nav>
     </header>
-    
+
     <section id="main">
         <div
             class="md:mt-0 mt-10 relative w-full min-h-80 md:min-h-screen bg-cover bg-center z-[1] bg-[url('https://bizfix.netlify.app/assets/img/shape/shape-banner-bg.png')]">
@@ -90,7 +92,7 @@
                     GET FREE QUOTE</div>
             </div>
 
-           
+
             <div class="absolute bg-red-500 inset-0 flex-cols justify-center items-center">
                 <img src="	https://bizfix.netlify.app/assets/img/banner/women.png" alt="" class="ml-80 px-50  ">
                 <p class="text-white ml-80 px-75 mt-20 text-xl italic tracking-wider">Operations keeps the lights on,
@@ -228,7 +230,7 @@
                 <h1 class="mt-10  italic text-2xl font-lighter">Investment Consulting</h1>
                 <div class="skill_container  mt-4">
                     <div id="newbar"></div>
-                   <p>80%</p>
+                    <p>80%</p>
                 </div>
 
 
@@ -248,10 +250,10 @@
 
     <section id="our_analysis">
         <div class="min-h-80 mt-20 max-w-full md:mt-33 flex-wrap md:flex-nowrap md:grid grid-cols-2 gap-3">
-            <div ><img src="https://bizfix.netlify.app/assets/img/resources/conncet-2.jpg" alt=""></div>
+            <div><img src="https://bizfix.netlify.app/assets/img/resources/conncet-2.jpg" alt=""></div>
             <div class="tracking-wide text-justify">
                 <h1 class=" text-red-500  text-xl italic ">
-             Our analysis</h1>
+                    Our analysis</h1>
                 <h1 class="w-full md:text-3xl mt-5 text-xl font-extrabold italic">Crafting Lasting Brand Identities:
                     Partner with Us for a Fresh Image</h1>
                 <p class="mt-10  text-justify italic">Transforming ideas into user-friendly and visually appealing
